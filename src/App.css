@@ -1,0 +1,9 @@
+.editionList{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.CardEdition{
+  height: 80%;
+}
