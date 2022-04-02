@@ -13,7 +13,7 @@ function Edition() {
     // Get the edistions list with axios
     const getEditions = async () => {
         const response = await axios.get(
-            `http://api.alquran.cloud/v1/edition`
+            `https://api.alquran.cloud/v1/edition`
         );
         console.log(response.data.data);
         setEdisionsList(response.data.data);

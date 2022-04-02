@@ -8,13 +8,13 @@ function Surats() {
     // Get the surats list with axios
     const getSurats = async () => {
 
-        console.log(`http://api.alquran.cloud/v1/quran/${edition}`);
+        console.log(`https://api.alquran.cloud/v1/juz/1/${edition}`);
         const response = await axios.get(
-            `http://api.alquran.cloud/v1/quran/${edition}`
+            `https://api.alquran.cloud/v1/juz/1/${edition}`
         );
         
-        setSuratsList(response.data.surahs[0]);
-        console.log(`http://api.alquran.cloud/v1/quran/${edition}`);
+        setSuratsList(response.data.surahs);
+        console.log(response.data.surahs);
     };
     // Load All editions
     useEffect(() => {
@@ -23,7 +23,12 @@ function Surats() {
     }, []);
     return (
         <div>
-            Surat page {surats}
+            { surats && surats.map(sur=>
+                <h1>{sur.name}</h1>
+            )
+
+            }
+            
         </div>
     );
 }
