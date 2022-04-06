@@ -21,6 +21,12 @@ bdo {
   unicode-bidi: bidi-override;
 } 
 .suratsName{
-  font-size: 18px;
+  font-size: 24px;
   font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  justify-items: flex-start;
+}
+.suratsName div{
+  width: 32vw;
 }

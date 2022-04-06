@@ -7,22 +7,27 @@ function Surats() {
   // Get the surats list with axios
   const getSurats = async () => {
     const response = await axios.get(
-      `https://api.alquran.cloud/v1/quran/${edition}`
+      `https://api.quran.com/api/v4/chapters?language=ar`
     );
 
-    setSuratsList(response.data.data.surahs);
+    setSuratsList(response.data.chapters);
+    console.log(response.data.chapters)
   };
   // Load All editions
   useEffect(() => {
     getSurats();
   }, []);
   return (
-    <div className="suratsName">
+    <div >
       {surats &&
         surats.map((sur) => (
-          <div key={sur.number}>
-             
-              {sur.number} - {sur.name}
+          <div key={sur.id} className="suratsName">
+              <div>
+              {sur.id} - {sur.name_arabic}
+              </div>
+              <div  dir="ltr">
+              {sur.id} - {sur.name_simple}
+              </div>
            
           </div>
         ))}
