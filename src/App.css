@@ -7,3 +7,20 @@
 .CardEdition{
   height: 80%;
 }
+
+.btnSurat{
+  background: #6A9C78; 
+  border: 0;
+  font-weight: bold; ;
+  margin:2%
+}
+.btnSurat:hover{
+  background: #FA4659; 
+}
+bdo {
+  unicode-bidi: bidi-override;
+} 
+.suratsName{
+  font-size: 18px;
+  font-family: 'Nunito Sans', sans-serif;
+}
