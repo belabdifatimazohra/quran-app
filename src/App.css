@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
 .app {
   background-color: #fffbdf;
-  font-family: 'Amiri', serif;  
 }
 .editionList {
   display: flex;
@@ -40,7 +39,7 @@ bdo {
   width: 100%;
 }
 .surats-container,.ayahs-container {
-  font-family: 'Amiri', serif;  
+  
   margin: 40px;
   padding: 25px;
   background: #fff;
@@ -83,5 +82,5 @@ a:hover{
   color: #28B5B5;
 }
 .red-bordre{
-  border: 1px solid #931A25;
+  border: 2px solid #931A25;
 }
