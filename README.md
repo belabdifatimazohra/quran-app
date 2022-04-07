@@ -12,7 +12,7 @@
 
 - 🤔 &nbsp; How to explore an extern API with react, React Router and React Hooks.
 
-- ⚡ &nbsp; Fun Fuct:  Get into the API ,[Quran Cloud API] (https://alquran.cloud/api) and [Quran API] (https://quran.api-docs.io/v4/)
+- ⚡ &nbsp; Fun Fuct:  Get into the API , [Quran Cloud API](https://alquran.cloud/api) and [Quran API](https://quran.api-docs.io/v4/)
 
 # 🛠 Tech Stack
 
