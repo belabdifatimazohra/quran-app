@@ -26,7 +26,7 @@ function Edition() {
               <Card.Title>{ed.name} </Card.Title>
               <Card.Text>{ed.identifier}</Card.Text>
             </Card.Body>
-            <Link to={`/Surats/${ed.identifier}`}>
+            <Link to={`/surats/${ed.identifier}`}>
               <Button className="btnSurat" onClick={(e) => setedition(ed.name)}>
                 Surats
               </Button>

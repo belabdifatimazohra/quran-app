@@ -1,32 +1,87 @@
-.editionList{
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+.app {
+  background-color: #fffbdf;
+  font-family: 'Amiri', serif;  
+}
+.editionList {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 20px;
 }
-.CardEdition{
+.CardEdition {
   height: 80%;
 }
 
-.btnSurat{
-  background: #6A9C78; 
+.btnSurat {
+  background: #835151;
   border: 0;
-  font-weight: bold; ;
-  margin:2%
+  font-weight: bold;
+  margin: 2%;
 }
-.btnSurat:hover{
-  background: #FA4659; 
+.btnSurat:hover {
+  background: #fa4659;
 }
 bdo {
   unicode-bidi: bidi-override;
-} 
-.suratsName{
+}
+.suratsName {
   font-size: 24px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   display: flex;
   justify-content: space-around;
   justify-items: flex-start;
 }
-.suratsName div{
+.suratsName div {
   width: 32vw;
+}
+
+.quranImage {
+  width: 100%;
+}
+.surats-container,.ayahs-container {
+  font-family: 'Amiri', serif;  
+  margin: 40px;
+  padding: 25px;
+  background: #fff;
+  -webkit-box-shadow: -2px 0px 33px -15px rgba(131, 81, 81, 1);
+  -moz-box-shadow: -2px 0px 33px -15px rgba(131, 81, 81, 1);
+  box-shadow: -2px 0px 33px -15px rgba(131, 81, 81, 1);
+}
+
+.ayahs{
+  font-size: 36px;
+  font-weight: 300;
+  padding:20px;
+    
+}
+
+.suratName{
+  text-align: center;
+  font-size: 48px;
+  font-weight:  600;
+  color: #835151;
+}
+.ayahs-container :nth-child(2){
+  text-align: center;
+}
+.border-number{
+  display: inline-block;
+  border-radius: 50%;
+  width: 60px;
+  height: 45px;
+  text-align: center;
+  background-color: #835151;
+}
+a{
+  text-decoration: none;
+  font-family: 'Amiri', serif; 
+  color: #835151;
+  font-weight: 600;
+}
+a:hover{
+  color: #28B5B5;
+}
+.red-bordre{
+  border: 1px solid #931A25;
 }
